@@ -34,17 +34,17 @@ To run the app locally, follow these steps:
    git clone https://github.com/your-username/quiz-app.git
    ```
 2. Navigate into the project directory:
-  ```bash
+   ```bash
    cd quiz-app
-  ```
+   ```
 3. Install the dependencies:
-```bash
+   ```bash
   npm install
-```
+   ```
 4. Start the development server:
-```bash
+   ```bash
   npm start
-```
+   ```
 
 ## How It Works
 - The app fetches 15 random quiz questions from the Open Trivia Database API.
