@@ -17,7 +17,7 @@ You can try out the app by visiting the live demo here: [Insert demo link]
 
 ## Screenshots
 
-![Quiz App](link_to_screenshot.png)
+![Quiz App](![image](https://github.com/user-attachments/assets/57c3f1a0-cb50-4ed4-afca-3f98a1885a11)
 
 ## Technologies Used
 
