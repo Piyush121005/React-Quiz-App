@@ -1,0 +1,46 @@
+button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+
+}
+
+button.visited {
+    background-color: #ffd700; /* Gold for visited */
+}
+
+button.attempted {
+    background-color: #32cd32; /* Green for attempted */
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.submit-quiz {
+    margin: 10px auto; /* Center and space it */
+    padding: 15px 30px; /* Larger padding for emphasis */
+    border-radius: 8px; /* Smooth, rounded corners */
+    background-color: #007bff; /* A prominent blue color */
+    color: #ffffff; /* White text for contrast */
+    font-size: 16px; /* Make the text larger */
+    font-weight: bold; /* Bold for importance */
+    border: none; /* Remove border */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+    margin-left: 45%;
+}
+
+button.submit-quiz:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    cursor: pointer; /* Pointer cursor */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+button.submit-quiz:active {
+    transform: scale(0.98); /* Slightly shrink on click */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+}

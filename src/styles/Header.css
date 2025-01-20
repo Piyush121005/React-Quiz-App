@@ -1,0 +1,26 @@
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Temporarily center all items */
+    position: relative; /* Enable positioning for child elements */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1; /* Allow it to occupy maximum space */
+}
+
+.header p {
+    margin: 0;
+    position: absolute; /* Position it independently */
+    right: 20px; /* Align it to the right */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    white-space: nowrap; /* Prevent text wrapping */
+}
